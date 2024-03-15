@@ -344,6 +344,90 @@ transition: .5s ease;
     justify-content:center;
   }
 }
+.offer{
+ 
+  width:100%;
+  background:white;
+  position:absolute;
+  height:70vh;
+  align-items:center;
+}
+.offer_text{
+  display:flex;
+  transform:translateY(15rem);
+  background:gray;
+  max-width:550px;
+  flex-direction:column;
+}
+.offer_text a.btn{
+  font-size:1.5rem;
+  font-weight:770;
+  width:155px;
+}
+ .offer_price{
+
+  background:black;
+  display:flex;
+  max-width:fit-content;
+  transform:translateX(70rem);
+  flex-direction:column;
+} 
+.offer_price{
+  color:darkorange;
+  font-size:2rem;
+  font-weight:770;
+  text-align:center;
+}
+
+
+
+
+
+
+
+
+
+.offer_text h2{
+  font-size:5rem;
+  font-weight:750;
+  height:10rem;
+  color:var(--primary);
+  text-align:bottom;
+}
+.offer_text p{
+  font-size:1.7rem;
+  display:flex;
+  color:black;
+  height:8.5rem;
+  justify-content:center;
+}
+
+
+
+@media screen and (max-width: 500px){
+  .offer{
+  background:white;
+  position:absolute;
+  height:100vh;
+  align-items:center;
+  }
+ 
+  .offer_text a.btn{
+    font-size:1.5rem;
+    font-weight:770;
+    width:100%;
+  }
+  .offer_price{
+    background:gray;
+    display:flex;
+    max-width:500px;
+    transform:translateY(60rem);
+    text-align:center;
+    font-size:5rem;
+  }
+
+}
+
 
 
 
