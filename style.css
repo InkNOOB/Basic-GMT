@@ -385,35 +385,61 @@ padding:1.3rem 3rem;
 
 }
 
-.offer_price{
-border:1px solid black;
-background:gray;
-font-size:4.5rem;
-margin:10rem;
+.offer{
+  padding: 5rem 0;
+}
+.offer_wrapper{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10rem;
+}
+.offer_text h2{
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 3rem;
+}
+.offer_text p{
+  margin-bottom: 2rem;
+  font-weight: 600;
+  text-align: justify;
+  max-width: 60rem;
+}
+.offer_price {
+  margin-top: 10rem;
 }
 .offer_price h3{
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.offer_price_bot{
+  display: flex;
+  color: var(--primary);
+  font-weight: 700;
+}
+.offer_price_bot h4{
+  
+  font-size: 3rem;
+}
+.offer_price_bot h3{
+  font-size: 18rem;
+  margin-top: -6rem;
+}
+/* COLOR */
+.offer_price h3{
+
   color:darkorange;
-  font-weight:700;
 }
 .offer_price_bot h3{
   color:var(--primary);
-  font-size:15rem;
 }
-.offer_price_bot h4{
-  font-size:4rem;
-  font-weight:700;
-  color:var(--primary);
+.offer_cents h4:first-child{
+  font-size:7rem;
 }
 .offer_cents h4:last-child{
   color:darkorange;
 }
-.offer_cents h4:first-child{
-  font-size:7.5rem;
-}
-
-
-
-
 
 @media screen and (max-width:500px){
 .offer{
@@ -448,11 +474,6 @@ font-size:1.4rem;
 font-weight:600;
 margin:2rem 1rem;
 }
-
-
-
-
-
 
 
 
